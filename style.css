@@ -1,0 +1,14 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+:root {
+   --blanc:#FFFFFF;
+   --negre:#000000;
+   --blauclar:lightblue;
+   --grisclar:#D3D3D3;
+   --grisfosc:#A9A9A9;
+}
+body{
+    font-family: sans-serif;
+}
