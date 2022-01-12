@@ -1,6 +1,7 @@
 *{
     margin: 0;
     padding: 0;
+    margin-top: 5px;
 }
 :root {
    --blanc:#FFFFFF;
@@ -11,4 +12,21 @@
 }
 body{
     font-family: sans-serif;
+}
+
+header{
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+}
+
+nav{
+    width: 50%;
+}
+
+ul{
+    display: flex;
+    position: relative;
+    flex-direction: row;
+    justify-content: space-evenly;
 }
