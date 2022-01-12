@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
 }
+
 :root {
    --blanc:#FFFFFF;
    --negre:#000000;
@@ -9,6 +10,7 @@
    --grisclar:#D3D3D3;
    --grisfosc:#A9A9A9;
 }
+
 body{
     font-family: sans-serif;
     background-color: #FDFDFD;
@@ -19,15 +21,18 @@ header{
     display: flex;
     position: relative;
     justify-content: space-between;
+    width: 100vw;
 }
+
 .logo{
     margin-left: 30px;
 }
+
 nav{
     width: 50vw;
     /*background-color: violet;*/
-    margin-top: 20px;
-    margin-right: 90px;
+    top: 20px;
+    right: 90px;
 }
 
 ul{
@@ -38,9 +43,11 @@ ul{
     color: grey;
     font-size: 0.8rem;
 }
+
 *.account{
     color: black;
 }
+
 main{
     display: flex;
     position: relative;
@@ -83,11 +90,14 @@ section{
     display: inline-flex;
     /*flex-direction: row;*/
     /*justify-content: space-evenly;*/
+    overflow:hidden;
 }
+
 article{
     margin: 20px;
     display: inline-flex;
 }
+
 .Textimg{
     display: flex;
     flex-direction: column;
