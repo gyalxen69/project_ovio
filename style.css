@@ -44,6 +44,11 @@ ul{
 main{
     display: flex;
     position: relative;
+    margin: 0;
+}
+.start{
+    width: 50vw;
+    height: 40vw;
 }
 section{
     display: inline-flex;
