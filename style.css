@@ -12,6 +12,7 @@
 }
 body{
     font-family: sans-serif;
+    background-color: #FDFDFD;
 }
 
 header{
@@ -19,14 +20,43 @@ header{
     position: relative;
     justify-content: space-between;
 }
-
+.logo{
+    margin-left: 30px;
+}
 nav{
-    width: 50%;
+    width: 50vw;
+    /*background-color: violet;*/
+    margin-top: 20px;
+    margin-right: 90px;
 }
 
 ul{
     display: flex;
     position: relative;
     flex-direction: row;
+    justify-content:space-evenly;
+    color: grey;
+    font-size: 0.8rem;
+}
+*.account{
+    color: black;
+}
+main{
+    display: flex;
+    position: relative;
+}
+section{
+    display: inline-flex;
+    flex-direction: row;
     justify-content: space-evenly;
+}
+article{
+    margin: 20px;
+    display: inline-flex;
+}
+.Textimg{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 15px;
 }
