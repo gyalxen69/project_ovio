@@ -19,6 +19,7 @@ header{
     display: flex;
     position: relative;
     justify-content: space-between;
+    width: 100vw;
 }
 .logo{
     margin-left: 30px;
@@ -26,8 +27,8 @@ header{
 nav{
     width: 50vw;
     /*background-color: violet;*/
-    margin-top: 20px;
-    margin-right: 90px;
+    top: 20px;
+    right: 90px;
 }
 
 ul{
@@ -46,14 +47,25 @@ main{
     position: relative;
     margin: 0;
 }
+h1{
+    font-size: 3rem;
+}
+.titol2{
+    font-size: 1.3rem;
+    margin: 20px 0px 20px 0px;
+}
+.seedstart{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 .start{
-    width: 50vw;
-    height: 40vw;
+    width: 60vw;
+    height: 50vw;
 }
 section{
     display: inline-flex;
-    flex-direction: row;
-    justify-content: space-evenly;
+    overflow:hidden;
 }
 article{
     margin: 20px;
