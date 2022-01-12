@@ -1,7 +1,6 @@
 *{
     margin: 0;
     padding: 0;
-    margin-top: 5px;
 }
 :root {
    --blanc:#FFFFFF;
@@ -13,6 +12,7 @@
 body{
     font-family: sans-serif;
     background-color: #FDFDFD;
+    margin-top: 5px;
 }
 
 header{
@@ -32,7 +32,7 @@ nav{
 
 ul{
     display: flex;
-    position: relative;
+   /* position: relative;*/
     flex-direction: row;
     justify-content:space-evenly;
     color: grey;
@@ -44,11 +44,45 @@ ul{
 main{
     display: flex;
     position: relative;
+    width: 100%;
+    justify-content: space-between;
 }
+
+#sofa{
+    width: 60%;
+    height: 50%;
+}
+
+h1{
+    font-size: 3rem;
+    font-weight: 800;
+}
+
+.seed{
+    width: 40%;
+    height: 50%;
+}
+
+.bstart{
+    width: 15vw;
+    height: 40px;
+    border-radius: 60px;
+    background-color: var(--negre);
+    color: var(--blanc);
+}
+
+.bplans{
+    width: 10vw;
+    height: 40px;
+    border-radius: 20px;
+    background-color: violet;
+    color: white;
+}
+
 section{
     display: inline-flex;
-    flex-direction: row;
-    justify-content: space-evenly;
+    /*flex-direction: row;*/
+    /*justify-content: space-evenly;*/
 }
 article{
     margin: 20px;
